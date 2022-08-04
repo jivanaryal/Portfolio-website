@@ -89,6 +89,9 @@
     }.iteams ul{
         display: flex;
         flex-wrap: nowrap;
+    }.photo img{
+        height: 400px;
+        width: auto;
     }
 
    

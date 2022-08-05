@@ -56,8 +56,18 @@
        }img{
         width: 500px;
         height: auto;
-       }
+       }.intro{
+        width: 400px;
+       
+        }.intro .i-m{
+        font-size: 20px;
+       }h1{
+         font-size: 30px;
+       }.flex{
+        font-size: 25px;
+
     }
+}
 
     @media (max-width: 700px) and (min-width: 400px) {
             .iteams ul{
@@ -80,6 +90,7 @@
         margin-bottom: 20px;
        }.intro{
         width: 300px;
+      
        }
     }
     
@@ -102,7 +113,7 @@
 
    }h1{
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     margin-left: 135px;
 
    }.flex{

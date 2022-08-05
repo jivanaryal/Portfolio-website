@@ -42,7 +42,7 @@
    }
     @media screen and (max-width: 800px) {
         .iteams ul li a{
-        font-size: 20px;
+        font-size: 12px;
         display: block;
        }.pf{
         font-size: 30px;
@@ -66,9 +66,9 @@
             .iteams ul{
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 6px;
        }.nav{
-        height: 200px;
+        height: 100px;
         flex-direction: column;
        }.pf{
         font-size: 25px;
@@ -93,11 +93,13 @@
    }.main{
     background-color: black;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    /* align-items: center; */
     height: fit-content;
    }.intro{
+    padding-top: 30px;
     width:100vw;
+    height: 40vh;
     text-align: center;
     margin-bottom: 200px;
     z-index: 1;
@@ -117,13 +119,13 @@
     font-size: xx-large;
    }
 
-   @media (max-width:500px){
+   @media (max-width:600px){
     .flex{
-        font-size: 20px;
+        font-size: 15px;
     }h1{
-        font-size: 30px;
-    }.i-m{
         font-size: 20px;
+    }.i-m{
+        font-size: 15px;
     }
    }
 

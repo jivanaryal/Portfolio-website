@@ -2,18 +2,23 @@
     padding: 0;
     margin: 0;
 }body{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
+    @media screen(max-width:900px){
+        background-color:black;
+    }
 }
    .nav{
     height: 70px;
+    width: 100%;
     background-color: rgb(47, 10, 47);
    display: flex;
-   align-items: center;
+   /* align-items: center; */
    justify-content: space-between;
    top: 0;
    position: sticky;
+  
    
    }.pf{
     display: flex;
@@ -24,7 +29,7 @@
     
    .white{
     color: rgb(231, 49, 49);
-    margin-left: 40px;
+    margin-left: 30px;
 
    }.red{
     color: blue;
@@ -39,9 +44,46 @@
     list-style: none;
    }.iteams ul li a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(76, 115, 18);
-   }.iteams ul li a:hover{
+   }
+    @media screen and (max-width: 800px) {
+        .iteams ul li a{
+        font-size: 20px;
+        display: block;
+       }.pf{
+        font-size: 30px;
+       }img{
+        width: 500px;
+        height: auto;
+       }
+    }
+
+    @media (max-width: 700px) and (min-width: 400px) {
+            .iteams ul{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+       }.nav{
+        height: 200px;
+        flex-direction: column;
+       }.pf{
+        font-size: 25px;
+        margin-left: 0px;
+       
+       }img{
+        height: 400px;
+        width: auto;
+       }.white{
+        margin-left: 0px;
+       }.iteams{
+        margin-bottom: 20px;
+       }.intro{
+        width: 300px;
+       }
+    }
+    
+   .iteams ul li a:hover{
     color: red;
    }.main{
     background-color: black;
@@ -68,37 +110,4 @@
     font-size: xx-large;
    }
 
-   @media only screen and(max-width:807px){
-    
-    .nav ul{
-        width: 100%;
-        position: absolute;
-        right: 0;
-        z-index: 2;
-    }.pf .white{
-        font-size:10px;
-    }.pf .red{
-        font-size: 10px;
-    }
-
-    .iteams ul li a{
-        font-size: 10px;
-        
-    }.intro .i-m{
-        font-size: small;
-    }.intro h1{
-        font-size: 10px;
-    }.flex{
-        font-size:medium;
-    }.iteams ul{
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }img{
-        height: 50px;
-        width: auto;
-    }
-
-   
-} 
-   
+  

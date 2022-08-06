@@ -79,7 +79,7 @@
         overflow: hidden;
         position: relative;
        }.pf{
-        font-size: 28px;
+        font-size: 2px;
         margin-left: 0px;
         display: none;
        
@@ -104,6 +104,7 @@
     justify-content: space-around;
     /* align-items: center; */
     height: fit-content;
+    gap: 10px;
    }.intro{
     padding-top: 30px;
     width:100vw;
@@ -131,7 +132,7 @@
     .flex{
         font-size: 30px;
     }h1{
-        font-size: 50px;
+        font-size: 40px;
     }.i-m{
         font-size: 25px;
     }

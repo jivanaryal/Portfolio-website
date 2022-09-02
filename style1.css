@@ -56,18 +56,18 @@
     color: white;
     font-family: sans-serif;
     border: 0.6px solid white;
-  
+    background-color: black;
   }
   
   ul li a {
     text-decoration: none;
     color: white;
-    background-color: black;
+   
     display: block;
     padding: 10px;
   }
   
-  ul li:hover {
+  ul li:hover{
     background-color: green;
     transition: 0.6s all;
   
@@ -84,10 +84,6 @@
   
   }
   
-  ul li ul li:hover article p {
-    opacity: 0.4;
-    z-index: -1;
-  }
   
   /* image section css */
   .image {

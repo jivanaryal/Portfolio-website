@@ -88,7 +88,7 @@
 }
 .intro .i-m {
   color: white;
-  font-size: larger;
+  font-size: 2.5em;
   overflow: hidden;
 }
 h1 {
@@ -109,6 +109,9 @@ h1 {
     margin-left: 50px;
   }
   .flex {
+    font-size: 1.5em;
+  }
+  .intro .i-m {
     font-size: 1.5em;
   }
 }

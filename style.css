@@ -76,7 +76,11 @@ button {
     display: block;
     position: relative;
     left: 350px;
-    bottom: 21px;
+    bottom: 29px;
+    font-size: 22px;
+    background: transparent;
+    color: red;
+    border: transparent;
   }
   .iteams ul {
     display: none;

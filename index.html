@@ -48,11 +48,20 @@
     <a href="about.html">BUTWAL KALIKA CAMPUS</a>
     <script>
       const unorderList = document.getElementById("unorderList");
+      const pf = document.querySelector(".pf");
+      const nav = document.querySelector(".nav");
 
       const myFunction = () => {
         if (unorderList.style.display === "none") {
           unorderList.style.display = "block";
-        } else unorderList.style.display = "none";
+          unorderList.style.display = "flex";
+          unorderList.style.position = "relative";
+          unorderList.style.left = "280px";
+
+          unorderList.style.flexDirection = "column";
+        } else {
+          unorderList.style.display = "none";
+        }
       };
     </script>
   </body>

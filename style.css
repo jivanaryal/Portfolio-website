@@ -3,7 +3,7 @@
   margin: 0;
 }
 .nav {
-  min-height: 5em;
+  min-height: 3.5em;
   background-color: rgb(47, 10, 47);
   display: flex;
   /* align-items: center; */
@@ -33,7 +33,7 @@
 .iteams ul {
   display: flex;
   gap: 50px;
-  min-height: 5em;
+  min-height: 3.5em;
   padding-top: 14px;
 }
 .iteams ul li {
@@ -58,12 +58,13 @@
     flex-direction: column;
   }
   .iteams ul {
+    padding-left: 15px;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
   }
   .white {
-    margin: 0px;
+    margin: 5px;
   }
 }
 

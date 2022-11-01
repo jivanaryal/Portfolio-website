@@ -92,7 +92,7 @@
 }
 h1 {
   color: white;
-  font-size: 50px;
+  font-size: 4em;
   margin-left: 135px;
   overflow: hidden;
 }
@@ -100,4 +100,14 @@ h1 {
   color: red;
   font-size: xx-large;
   overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2em;
+    margin-left: 50px;
+  }
+  .flex {
+    font-size: 1.5em;
+  }
 }

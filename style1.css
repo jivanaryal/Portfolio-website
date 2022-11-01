@@ -1,241 +1,225 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    box-sizing: border-box;
-    background-color: rgba(224, 218, 218, 0.349);
-  }
-  
-  /* header section css */
-  header {
-    height: 80px;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    background-color: green;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  header img {
-    float: left;
-    border-radius: 50%;
-    margin-left: 10px;
-    transition: 2000ms ease-in-out;
-    
-  
-  }header img:hover{
-    transition: 1s all ease-in-out;
-    transition-duration: 30s all ease-in-out;
-    transform: rotate(360deg);
-   
-  }
-  
-  header h1 h3 {
-    margin-top: 25px;
-  }
-  
-  header a {
-    float: right;
-    margin-right: 20px;
-    text-decoration: none;
-    background-color: #2196F3;
-    padding: 5px;
-    border: 1px solid black;
-    border-radius: 4px;
-  }
-  
-  /* nav section css */
-  ul {
-    height: 45px;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-   
-  
-  }
-  
-  ul li {
-    list-style: none;
-    height: 40px;
-    width: 200px;
-    float: left;
-    color: white;
-    font-family: sans-serif;
-    border: 0.6px solid white;
-    background-color: black;
-  }
-  
-  ul li a {
-    text-decoration: none;
-    color: white;
-   
-    display: block;
-    padding: 10px;
-  }
-  
-  ul li:hover{
-    background-color: green;
-    transition: 0.6s all;
-  
-  }
-  
-  ul li ul li {
-    display: none;
-  }
-  
-  ul li:hover ul li {
-    display: block;
-    animation-duration: 2000ms;
-    z-index: 1;
-  
-  }
-  
-  
-  /* image section css */
-  .image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .image img {
-    margin-top: 10px;
-  }
-  
-  /* article section css */
-  .intro {
-    font-size: 18px;
-    line-height: 1.7rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: Arial, Helvetica, sans-serif;
-    
-  }
-  
-  .advertise {
-    margin-right: 40px;
-    background-color: red;
-    font-size: 15px;
-    line-height: 1.4rem;
-    padding: 20px;
-    text-align: justify;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-  }
-  
-  advertisement img {
-    margin-top: 20px;
-    width: 30%;
-    float: right;
-    height: 500px;
-    margin-right: 50px;
-  
-  }
-  
-  svg {
-    height: 18px;
-    width: auto;
-  }
-  
-  /* footer section css */
-  .contact_us {
-    border: 2px solid transparent;
-  
-    padding: 10px;
-  
-  }
-  
-  .message {
-    display: flex;
-    gap: 10px;
-    margin-top: 8px;
-  }
-  
-  .number {
-    display: flex;
-    gap: 10px;
-    margin-top: 8px;
-  }
-  
-  .location {
-    display: flex;
-    gap: 10px;
-    margin-top: 8px;
-  
-  }
-  
-  /* footer section css */
-  .footer {
-    display: flex;
-    color: white;
-    justify-content: center;
-    background-color: #294a70;
-    gap: 140px;
-    height: 200px;
-  }
-  
-  .footer h3 {
-    color: white;
-    margin-bottom: 5px;
-  }
-  
-  .quicklinks {
-    border: 2px solid transparent;
-    padding: 10px;
-  
-  }
-  
-  .quicklinks li {
-    list-style: none;
-    padding: 5px;
-  
-  }
-  
-  .quicklinks li a {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-  }
-  
-  .quicklinks h3 {
-    color: white;
-  }
-  
-  .ourlocation {
-    padding: 10px;
-  }
-  
-  
-  
-  /* other css */
-  ul li ul:hover {
-    z-index: 1;
-  }
-  
-  ul li ul:hover .image img {
-    z-index: -1;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-    .image{
-      background-image: url('kalika1.png');
-      background-repeat: no-repeat;
-      height: 700px;
-      width: 60%;
-      margin-left: 20%;
-      margin-top: 80px;
-    }
-    
-      .article {
-        float: left;
-        padding: 10px;
-        width: 50%;
-        height: 520px;
-        border: 1px solid black;
-        margin-left: 100px;
-        background-color: aqua;
-        box-shadow:5px 10px #888888;
-        margin-bottom: 70px;
-      } 
+body {
+  box-sizing: border-box;
+  background-color: rgba(224, 218, 218, 0.349);
+}
+
+/* header section css */
+header {
+  height: 80px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header img {
+  float: left;
+  border-radius: 50%;
+  margin-left: 10px;
+  transition: 2000ms ease-in-out;
+}
+header img:hover {
+  transition: 1s all ease-in-out;
+  transition-duration: 30s all ease-in-out;
+  transform: rotate(360deg);
+}
+
+header h1 h3 {
+  margin-top: 25px;
+}
+
+header a {
+  float: right;
+  margin-right: 20px;
+  text-decoration: none;
+  background-color: #2196f3;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+/* nav section css */
+ul {
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+  height: 40px;
+  width: 200px;
+  float: left;
+  color: white;
+  font-family: sans-serif;
+  border: 0.6px solid white;
+  background-color: black;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+
+  display: block;
+  padding: 10px;
+}
+
+ul li:hover {
+  background-color: green;
+  transition: 0.6s all;
+}
+
+ul li ul li {
+  display: none;
+}
+
+ul li:hover ul li {
+  display: block;
+  animation-duration: 2000ms;
+  z-index: 1;
+}
+
+/* image section css */
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  margin-top: 10px;
+}
+
+/* article section css */
+.intro {
+  font-size: 18px;
+  line-height: 1.7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.advertise {
+  margin-right: 40px;
+  background-color: red;
+  font-size: 15px;
+  line-height: 1.4rem;
+  padding: 20px;
+  text-align: justify;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+advertisement img {
+  margin-top: 20px;
+  width: 30%;
+  float: right;
+  height: 500px;
+  margin-right: 50px;
+}
+
+svg {
+  height: 18px;
+  width: auto;
+}
+
+/* footer section css */
+.contact_us {
+  border: 2px solid transparent;
+
+  padding: 10px;
+}
+
+.message {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.number {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.location {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+/* footer section css */
+.footer {
+  display: flex;
+  color: white;
+  justify-content: center;
+  background-color: #294a70;
+  gap: 140px;
+  height: 200px;
+}
+
+.footer h3 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.quicklinks {
+  border: 2px solid transparent;
+  padding: 10px;
+}
+
+.quicklinks li {
+  list-style: none;
+  padding: 5px;
+}
+
+.quicklinks li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.quicklinks h3 {
+  color: white;
+}
+
+.ourlocation {
+  padding: 10px;
+}
+
+/* other css */
+ul li ul:hover {
+  z-index: 1;
+}
+
+ul li ul:hover .image img {
+  z-index: -1;
+}
+
+.image {
+  background-image: url("kalika1.png");
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 80px;
+}
+
+.article {
+  float: left;
+  padding: 10px;
+  width: 50%;
+  height: 520px;
+  border: 1px solid black;
+  margin-left: 100px;
+  background-color: aqua;
+  box-shadow: 5px 10px #888888;
+  margin-bottom: 70px;
+}
 
 /* 
     float: left; padding:10px; width: 50%; height: 520px; border: 1px solid black; margin-left: 100px; background-color: aqua; margin-bottom: 70px; box-shadow: 5px 10px #888888;" */

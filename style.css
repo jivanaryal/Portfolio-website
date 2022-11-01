@@ -1,145 +1,103 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-   .nav{
-    height: 70px;
-    width: 100vw;
-    background-color: rgb(47, 10, 47);
-   display: flex;
-   /* align-items: center; */
-   justify-content: space-between;
-   top: 0;
-   position: sticky;
-   overflow: hidden;
-  
-   
-   }.pf{
-    display: flex;
-    font-size: 40px;
-   }.pf:hover{
-      cursor: pointer;
-   }
-    
-   .white{
-    color: rgb(231, 49, 49);
-    margin-left: 30px;
-
-   }.red{
-    color: blue;
-   }.iteams{
-    margin-right: 50px;
-
-   }.iteams ul{
-    display: flex;
-    gap: 55px;
-    padding-top: 18px;
-
-   }.iteams ul li{
-    list-style: none;
-   }.iteams ul li a{
-    text-decoration: none;
-   
-    font-size: 25px;
-    color: rgb(76, 115, 18);
-    transition: color 0.6s ease;
-   }.iteams ul li a:hover{
-    color: rgb(23, 89, 221);
-   }
-    @media screen and (max-width: 800px) {
-        .iteams ul li a{
-        font-size: 20px;
-        display: block;
-       }.pf{
-        font-size: 30px;
-       }img{
-        width: 400px;
-        height: auto;
-       }.intro{
-        width: 400px;
-       
-        }.intro .i-m{
-        font-size: 20px;
-       }h1{
-         font-size: 30px;
-       }.flex{
-        font-size: 25px;
-
-    }
+.nav {
+  min-height: 5em;
+  background-color: rgb(47, 10, 47);
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  top: 0;
+  position: sticky;
+  overflow: hidden;
+}
+.pf {
+  display: flex;
+  font-size: 40px;
+}
+.pf:hover {
+  cursor: pointer;
 }
 
-    @media (max-width: 700px) and (min-width: 250px) {
-            .iteams ul{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 6px;
-       }.nav{
-        height: 120px;
-        flex-direction: column;
-        overflow: hidden;
-        position: relative;
-       }.pf{
-        font-size: 2px;
-        margin-left: 0px;
-        display: none;
-       
-       }img{
-        display: none;
-      
-       }.white{
-        margin-left: 0px;
-       }.iteams{
-        margin-bottom: 20px;
-       }.intro{
-        width: 300px;
-      
-       }
-    }
-    
-   .iteams ul li a:hover{
-    color: red;
-   }.main{
-    background-color: black;
-    display: flex;
-    overflow: hidden;
-    justify-content: space-around;
-    /* align-items: center; */
-    height: fit-content;
-    gap: 10px;
-   }.intro{
-    padding-top: 30px;
-    width:100vw;
-    height: 50vh;
-    text-align: center;
-    margin-bottom: 200px;
-   
-    overflow: hidden;
-   
-   }.intro .i-m{
-    color: white;
-    font-size: larger;
-    overflow: hidden;
-   }h1{
-    color: white;
-    font-size: 50px;
-    margin-left: 135px;
-    overflow: hidden;
-   }.flex{
-    color: red;
-    font-size: xx-large;
-    overflow: hidden;
-   }
+.white {
+  color: rgb(231, 49, 49);
+  margin-left: 30px;
+}
+.red {
+  color: blue;
+}
+.iteams {
+  margin-right: 50px;
+}
+.iteams ul {
+  display: flex;
+  gap: 50px;
+  min-height: 5em;
+  padding-top: 14px;
+}
+.iteams ul li {
+  list-style: none;
+}
+.iteams ul li a {
+  text-decoration: none;
 
-   @media (max-width:600px){
-    .flex{
-        font-size: 30px;
-    }h1{
-        font-size: 40px;
-    }.i-m{
-        font-size: 25px;
-    }
-   }
+  font-size: 25px;
+  color: rgb(76, 115, 18);
+  transition: color 0.6s ease;
+}
+.iteams ul li a:hover {
+  color: rgb(23, 89, 221);
+}
 
-  
+.iteams ul li a:hover {
+  color: red;
+}
+@media screen and (max-width: 730px) {
+  .nav {
+    flex-direction: column;
+  }
+  .iteams ul {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .white {
+    margin: 0px;
+  }
+}
+
+.main {
+  background-color: black;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-around;
+  /* align-items: center; */
+  height: fit-content;
+  gap: 10px;
+}
+.intro {
+  padding-top: 30px;
+  width: 100vw;
+  height: 50vh;
+  text-align: center;
+  margin-bottom: 200px;
+
+  overflow: hidden;
+}
+.intro .i-m {
+  color: white;
+  font-size: larger;
+  overflow: hidden;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  margin-left: 135px;
+  overflow: hidden;
+}
+.flex {
+  color: red;
+  font-size: xx-large;
+  overflow: hidden;
+}

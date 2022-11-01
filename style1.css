@@ -203,8 +203,8 @@ ul li ul:hover .image img {
 .image {
   background-image: url("kalika1.png");
   background-repeat: no-repeat;
-  height: 700px;
   width: 60%;
+  height: 100vh;
   margin-left: 20%;
   margin-top: 80px;
 }

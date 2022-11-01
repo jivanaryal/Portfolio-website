@@ -30,6 +30,10 @@
 .iteams {
   margin-right: 50px;
 }
+button {
+  display: none;
+}
+
 .iteams ul {
   display: flex;
   gap: 50px;
@@ -65,6 +69,17 @@
   }
   .white {
     margin-left: 10px;
+  }
+}
+@media screen and (max-width: 415px) {
+  button {
+    display: block;
+    position: relative;
+    left: 350px;
+    bottom: 21px;
+  }
+  .iteams ul {
+    display: none;
   }
 }
 

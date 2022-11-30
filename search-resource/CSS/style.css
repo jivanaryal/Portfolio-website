@@ -67,7 +67,8 @@ nav {
   align-items: center;
 }
 .nav-wrapper h1 {
-  font-size: 40px;
+  width: 100%;
+
   font-family: Arial, Helvetica, sans-serif;
 }
 input[type="search"] {
@@ -96,6 +97,11 @@ input[type="search"] {
 @media screen and (min-width: 800px) {
   .container {
     grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (min-width: 500px) {
+  .container {
+    justify-content: start;
   }
 }
 .box {
